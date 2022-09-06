@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Perfil">
+
+    <Button
+        android:id="@+id/btnPizzaFact"
+        android:layout_width="135dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="12dp"
+        android:text="Salvar Pizza"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnDescartar"
+        android:layout_width="135dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="16dp"
+        android:text="Descartar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Group
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="ImPizzaBase,ImOvo,ImAbacaxi,ImTomatos,ImFrango,ImMilho,ImPresunto" />
+
+    <ImageView
+        android:id="@+id/ImPizzaBase"
+        android:layout_width="341dp"
+        android:layout_height="341dp"
+        android:layout_marginTop="140dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/pizzaria_em_barueri_fratelli_13" />
+
+    <ImageView
+        android:id="@+id/ImOvo"
+        android:layout_width="201dp"
+        android:layout_height="201dp"
+        android:layout_marginTop="208dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/ovo_cozido_2" />
+
+    <ImageView
+        android:id="@+id/ImAbacaxi"
+        android:layout_width="201dp"
+        android:layout_height="201dp"
+        android:layout_marginTop="208dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/abacaxi_cortado" />
+
+    <ImageView
+        android:id="@+id/ImTomatos"
+        android:layout_width="201dp"
+        android:layout_height="201dp"
+        android:layout_marginTop="208dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/b_6e17076213024c40b829c8bf4c727bc2" />
+
+    <ImageView
+        android:id="@+id/ImFrango"
+        android:layout_width="201dp"
+        android:layout_height="201dp"
+        android:layout_marginTop="208dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/frang" />
+
+    <ImageView
+        android:id="@+id/ImMilho"
+        android:layout_width="201dp"
+        android:layout_height="201dp"
+        android:layout_marginTop="208dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/milho" />
+
+    <ImageView
+        android:id="@+id/ImPresunto"
+        android:layout_width="201dp"
+        android:layout_height="201dp"
+        android:layout_marginTop="208dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/presunto_fatiado_500x500" />
+</androidx.constraintlayout.widget.ConstraintLayout>
